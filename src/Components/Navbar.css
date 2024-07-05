@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar {
+    height: 86px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+
+.logo_holder {
+    width: 181px;
+    height: 43px;
+    margin-top: 25px;
+    margin-left: 187px;
+}
+
+.navbar_side_tags {
+    height: 12vh;
+    margin-left: 18vw;
+    width: 60vw;
+    margin-top: 25px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+button {
+    margin-top: -5px;
+}
+
+.nav-link{
+    color: rgba(109, 110, 113, 1);
+}
+
+.btn-outline-success{
+width: 193.31px;
+height: 50px;
+color:rgba(0, 115, 47, 1);
+}

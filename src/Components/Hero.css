@@ -1,0 +1,61 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 609px;
+    margin-bottom: 10vh;
+    background-image: url("C:\Users\Dell\Desktop\Habot_test_task\habot-app\src\Assets\Hero.png");
+}
+
+.heading_1 {
+
+    font-style: Poppins;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 55px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20vh;
+}
+
+.heading_2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 55px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.input_field {
+
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.btn_search {
+    height: 54px;
+    width: 117.94px;
+    background-color: rgba(0, 115, 47, 1);
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.buyer_link {
+    padding-top: 10vh;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.input-group {
+    height: 56px;
+    width: 400px;
+}

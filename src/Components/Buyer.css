@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buyer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 609px;
+    background-color: rgba(7, 47, 87, 1);
+    margin: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left_middle {
+    margin: 10px;
+    display: inline;
+    height: 350px;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C:\Users\Dell\Desktop\Habot_test_task\habot-app\src\Assets\youtube.png');
+    object-fit: cover;
+}
+
+.right_middle {
+    padding: 8vh;
+}
+
+.buyer_supplier {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.buyer_part {
+    color: rgba(235, 113, 80, 1);
+    font-size: 2rem;
+    font-weight: 600;
+    width: 202px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(235, 113, 80, 1);
+}
+
+.supplier_part {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 202px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.key_points {
+    color: white;
+    font-weight: 500;
+
+}
+
+.youtube_icon {
+    width: 106px;
+    height: 75px;
+    color: red;
+    cursor: pointer;
+
+}

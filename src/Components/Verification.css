@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.verification {
+    height: 254px;
+    background-color: rgba(232, 251, 255, 1);
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 10vh; */
+
+}
+
+.verified {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.find {
+    font-weight: bold;
+    font-size: 2rem;
+    height: 40px;
+    width: 500px;
+}
+
+.btn_verify {
+    background-color: rgba(235, 113, 80, 1);
+    height: 54px;
+    width: 216px;
+    border-radius: 5px;
+}
+
+.underline{
+    text-decoration-color: rgba(235, 113, 80, 1);
+}
